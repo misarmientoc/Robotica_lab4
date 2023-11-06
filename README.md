@@ -42,17 +42,25 @@ H0TCP = 4×4
     1.0000         0         0    0.1850
          0         0         0    1.0000
 ![image](https://github.com/misarmientoc/Robotica_lab4/assets/66492359/ff1c7bb9-377d-452d-9310-5b32cccaa4ff)
+
 q1 = 1×4    
     0.4363    0.4363    0.3491   -0.3491
+
 ![image](https://github.com/misarmientoc/Robotica_lab4/assets/66492359/e0d103f8-926c-4bb7-a70d-9254cd78d199)
+
 q2 = 1×4    
    -0.6109    0.6109   -0.5236    0.5236
+
 ![image](https://github.com/misarmientoc/Robotica_lab4/assets/66492359/237de157-f726-470d-93ea-dac8150d4ea1)
+
 q3 = 1×4    
     1.4835   -0.3491    0.9599    0.4363
+
 ![image](https://github.com/misarmientoc/Robotica_lab4/assets/66492359/680b1cc3-031e-4e9c-a35e-d972ffa991c5)
+
 q4 = 1×4    
     1.3963   -0.6109    0.9599   -0.7854
+
 ![image](https://github.com/misarmientoc/Robotica_lab4/assets/66492359/eaf9adae-992d-462c-97e7-76bd1df93aa4)
 
 
