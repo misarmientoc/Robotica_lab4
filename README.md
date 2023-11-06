@@ -23,6 +23,14 @@ Medidas de los eslabones:
 
 ### Desarrollo de la cinemática directa:
   Se hizo uso de SerialLink para la construcción del robot a partir de los parámetros DH estandar, también se calculó la matriz de transformación homogenea que relaciona el sistema de coordenadas de World con el sistema de coordendas del TCP (H0TCP).
+
+El diagrama que describe el robot pincher es el siguiente
+
+![image](https://github.com/misarmientoc/Robotica_lab4/assets/47614570/6162ab67-abc2-4dc4-8b96-21609a8b636e)
+
+Los marcos de referencia para describir el robot a través de los parámetros DH con base en el diagrama del robot pincher y las distancias de las articulaciones ya medidas son:
+
+![image](https://github.com/misarmientoc/Robotica_lab4/assets/47614570/f716a957-ff82-424c-a84f-24f2dc110be5)
    
 PhantomII = 
  
