@@ -30,7 +30,8 @@ El diagrama que describe el robot pincher es el siguiente
 
 Los marcos de referencia para describir el robot a través de los parámetros DH con base en el diagrama del robot pincher y las distancias de las articulaciones ya medidas son:
 
-![image](https://github.com/misarmientoc/Robotica_lab4/assets/47614570/f716a957-ff82-424c-a84f-24f2dc110be5)
+![image](https://github.com/misarmientoc/Robotica_lab4/assets/47614570/c49ea090-709e-4f3c-8de1-5d870d302a63)
+
    
 PhantomII = 
  
