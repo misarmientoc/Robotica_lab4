@@ -104,5 +104,6 @@ A continuación se muestra el pantallazo donde el robot alcanza cada una de las 
 ## Conclusiones
 
 -El programa creado logra establecer una comunicación humano-máquina mediante la terminal, aunque la interfaz podría ser más intuitiva en próximos laboratorios. Se tiene como objetivo diseñar una interfaz más atractiva en futuras operaciones.
+
 -Para realizar este laboratorio, se utilizaron los repositorios de referencia como base. Los archivos de la carpeta de Dynamixel One Motor, en particular los scripts, fueron los más relevantes para el proyecto. Estos archivos facilitaron el desarrollo del programa y el aprendizaje de los conceptos de control de motores Dynamixel.
 
