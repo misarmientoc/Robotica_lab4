@@ -85,5 +85,11 @@ El programa inicia un bucle while que se ejecuta indefinidamente, solicitando al
 
 ![image](https://github.com/misarmientoc/Robotica_lab4/assets/47614570/d73783f0-8dd3-49e4-95fb-688f516ae5c5)
 
- 
+
+## Desarrollo
+
+A continuación se muestra el pantallazo donde el robot alcanza cada una de las posiciones que son seleccionadas por el usuario:
+
+![image](https://github.com/misarmientoc/Robotica_lab4/assets/47614570/417cc620-1d4d-4786-a331-3a7a1c268bd7)
+
 
