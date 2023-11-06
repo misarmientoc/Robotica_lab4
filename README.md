@@ -20,3 +20,6 @@ El primer paso para la elaboración de este laboratorio fué tomar las medidas d
 
 Medidas de los eslabones:
 [![IMG-20231105-213426.jpg](https://i.postimg.cc/RZcyVZmz/IMG-20231105-213426.jpg)](https://postimg.cc/hXtp2ghC)
+
+### Desarrollo de la cinemática directa:
+  Se hizo uso de SerialLink para la construcción del robot a partir de los parámetros DH estandar, también se calculó la matriz de transformación homogenea que relaciona el sistema de coordenadas de World con el sistema de coordendas del TCP (H0TCP).
