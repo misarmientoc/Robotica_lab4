@@ -77,7 +77,11 @@ La función jointCommand es una función que envía un comando de dynamixel al m
 
 ![image](https://github.com/misarmientoc/Robotica_lab4/assets/47614570/33878b69-5e9c-4a71-95d5-8dc469c4f5b9)
 
+Cuando se ejecuta este archivo desde la terminal, se inicia el nodo de ROS y se suscribe al topic de los motores para recibir sus datos. Estos datos se muestran en la terminal junto con el nombre del grupo. A continuación, se crean listas con las posiciones posibles para enviar a los motores, tanto en bits como en grados. Se hace una lista de listas con estas posiciones y se le presentan al usuario en formato de grados.
 
+![image](https://github.com/misarmientoc/Robotica_lab4/assets/47614570/9c6f4692-7118-4b62-ac13-b16f3b355628)
+
+El programa inicia un bucle while que se ejecuta indefinidamente, solicitando al usuario que ingrese un número de posición para controlar el pincher. Mediante un bucle for, se envían los comandos correspondientes a cada motor usando la función join_command, junto con un límite de torque por seguridad. La posición real de cada motor se muestra en la consola, junto con el error respecto a la posición deseada.
 
  
 
