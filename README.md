@@ -26,15 +26,10 @@ Medidas de los eslabones:
    
 PhantomII = 
  
-PhantomII:: 4 axis, RRRR, stdDH, slowRNE                         
-+---+-----------+-----------+-----------+-----------+-----------+
-| j |     theta |         d |         a |     alpha |    offset |
-+---+-----------+-----------+-----------+-----------+-----------+
-|  1|         q1|       0.08|          0|    -1.5708|          0|
-|  2|         q2|          0|     -0.105|          0|     1.5708|
-|  3|         q3|          0|      0.105|          0|    -1.5708|
-|  4|         q4|          0|          0|    -1.5708|    -1.5708|
-+---+-----------+-----------+-----------+-----------+-----------+
+PhantomII:: 4 axis, RRRR, stdDH, slowRNE    
+
+![image](https://github.com/misarmientoc/Robotica_lab4/assets/66492359/843327aa-e4e1-46a6-a2d1-cabc713166d0)
+
 tool:    t = (0, 0, 0.065), RPY/xyz = (0, 0, 0) deg              
 H0TCP = 4×4    
          0         0    1.0000    0.1700
