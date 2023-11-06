@@ -13,3 +13,5 @@ Laboratorio 4 de robótica 2023-2
 • Manipular los tópicos de estado y comando para todos los Joint Controllers del robot Phantom X Pincher. <br>
 • Manipular los servicios para todos los Joint Controllers del robot Phantom X Pincher. <br>
 • Conectar el robot Phantom X Pincher con MATLAB o Python usando ROS. <br>
+
+## Descripción de la solución planteada
