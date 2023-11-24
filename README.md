@@ -94,9 +94,46 @@ El programa inicia un bucle while que se ejecuta indefinidamente, solicitando al
 
 ![image](https://github.com/misarmientoc/Robotica_lab4/assets/47614570/d73783f0-8dd3-49e4-95fb-688f516ae5c5)
 
-##MATLAB
+## MATLAB
 
+'while(1) 
+n = input('Selecione una opción 1, 2, 3 , 4, 5, 6   ')
 
+switch n
+    case 1
+        pos1B = ConversorA_bit(0,0);
+        pos2B = ConversorA_bit(0,0);
+        pos3B = ConversorA_bit(-90,0);
+        pos4B = ConversorA_bit(0,0);
+    case 2
+        pos1B = ConversorA_bit(0,25);
+        pos2B = ConversorA_bit(0,25);
+        pos3B = ConversorA_bit(-90,20);
+        pos4B = ConversorA_bit(0,-20);
+    case 3
+        pos1B = ConversorA_bit(0,-35);
+        pos2B = ConversorA_bit(0, 35);
+        pos3B = ConversorA_bit(-90,-30);
+        pos4B = ConversorA_bit(0,30);
+    case 4
+        pos1B = ConversorA_bit(0,85);
+        pos2B = ConversorA_bit(0,-20);
+        pos3B = ConversorA_bit(-90,55);
+        pos4B = ConversorA_bit(0,25);
+     case 5
+        pos1B = ConversorA_bit(0,80);
+        pos2B = ConversorA_bit(0,-35);
+        pos3B = ConversorA_bit(-90,55);
+        pos4B = ConversorA_bit(0,-45);
+     case 6
+        EnableTorque(port_num,PROTOCOL_VERSION,DXL1_ID,0)
+        EnableTorque(port_num,PROTOCOL_VERSION,DXL2_ID,0)
+        EnableTorque(port_num,PROTOCOL_VERSION,DXL3_ID,0)
+        EnableTorque(port_num,PROTOCOL_VERSION,DXL4_ID,0)
+        DisconnectPhantomX(port_num,lib_name)
+        break;
+
+    end'
 
 
 ## Desarrollo
