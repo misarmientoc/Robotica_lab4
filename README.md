@@ -94,6 +94,10 @@ El programa inicia un bucle while que se ejecuta indefinidamente, solicitando al
 
 ![image](https://github.com/misarmientoc/Robotica_lab4/assets/47614570/d73783f0-8dd3-49e4-95fb-688f516ae5c5)
 
+##MATLAB
+
+
+
 
 ## Desarrollo
 
