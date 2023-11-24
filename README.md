@@ -96,7 +96,7 @@ El programa inicia un bucle while que se ejecuta indefinidamente, solicitando al
 
 ## MATLAB
 
-'while(1) 
+<prev> while(1) 
 n = input('Selecione una opción 1, 2, 3 , 4, 5, 6   ')
 
 switch n
@@ -133,7 +133,7 @@ switch n
         DisconnectPhantomX(port_num,lib_name)
         break;
 
-    end'
+    end </pre>
 
 
 ## Desarrollo
