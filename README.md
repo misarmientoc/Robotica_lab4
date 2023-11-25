@@ -102,54 +102,13 @@ Partiendo del codigo ejemplo sync_write.m se genera un archivo que permite contr
 
 
 
-
-while(1) 
-n = input('Selecione una opción 1, 2, 3 , 4, 5, 6   ')
-
-switch n
-    case 1
-        pos1B = ConversorA_bit(0,0);
-        pos2B = ConversorA_bit(0,0);
-        pos3B = ConversorA_bit(-90,0);
-        pos4B = ConversorA_bit(0,0);
-    case 2
-        pos1B = ConversorA_bit(0,25);
-        pos2B = ConversorA_bit(0,25);
-        pos3B = ConversorA_bit(-90,20);
-        pos4B = ConversorA_bit(0,-20);
-    case 3
-        pos1B = ConversorA_bit(0,-35);
-        pos2B = ConversorA_bit(0, 35);
-        pos3B = ConversorA_bit(-90,-30);
-        pos4B = ConversorA_bit(0,30);
-    case 4
-        pos1B = ConversorA_bit(0,85);
-        pos2B = ConversorA_bit(0,-20);
-        pos3B = ConversorA_bit(-90,55);
-        pos4B = ConversorA_bit(0,25);
-     case 5
-        pos1B = ConversorA_bit(0,80);
-        pos2B = ConversorA_bit(0,-35);
-        pos3B = ConversorA_bit(-90,55);
-        pos4B = ConversorA_bit(0,-45);
-     case 6
-        EnableTorque(port_num,PROTOCOL_VERSION,DXL1_ID,0)
-        EnableTorque(port_num,PROTOCOL_VERSION,DXL2_ID,0)
-        EnableTorque(port_num,PROTOCOL_VERSION,DXL3_ID,0)
-        EnableTorque(port_num,PROTOCOL_VERSION,DXL4_ID,0)
-        DisconnectPhantomX(port_num,lib_name)
-        break;
-
-    end
-
-
 ## Desarrollo
 
 A continuación se muestra el pantallazo donde el robot alcanza cada una de las posiciones que son seleccionadas por el usuario:
 
 ![image](https://github.com/misarmientoc/Robotica_lab4/assets/47614570/417cc620-1d4d-4786-a331-3a7a1c268bd7)
 
-En el siguiente video se observa el moviemito del robot
+En el siguiente video se observa el movimiento del robot
 
 https://youtu.be/kAmjaRHJvHw?si=97m7ebpFJ07SqSqx
 
