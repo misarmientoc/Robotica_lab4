@@ -96,7 +96,14 @@ El programa inicia un bucle while que se ejecuta indefinidamente, solicitando al
 
 ## MATLAB
 
-``` while(1) 
+Partiendo del codigo ejemplo sync_write.m se genera un archivo que permite controlar 4  motores al tiempo y se genera un switch case para seleccionar cada una de las posiciones y para cerrar el ciclo  y la comunicacion.
+
+![image](https://github.com/misarmientoc/Robotica_lab4/assets/47614570/6fda32ef-cdd8-42ed-a904-42a767216e08)
+
+
+
+
+while(1) 
 n = input('Selecione una opción 1, 2, 3 , 4, 5, 6   ')
 
 switch n
@@ -133,7 +140,7 @@ switch n
         DisconnectPhantomX(port_num,lib_name)
         break;
 
-    end ```
+    end
 
 
 ## Desarrollo
@@ -141,6 +148,10 @@ switch n
 A continuación se muestra el pantallazo donde el robot alcanza cada una de las posiciones que son seleccionadas por el usuario:
 
 ![image](https://github.com/misarmientoc/Robotica_lab4/assets/47614570/417cc620-1d4d-4786-a331-3a7a1c268bd7)
+
+En el siguiente video se observa el moviemito del robot
+
+https://youtu.be/kAmjaRHJvHw?si=97m7ebpFJ07SqSqx
 
 ## Conclusiones
 
